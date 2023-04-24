@@ -203,6 +203,10 @@ class Candidate(Your):
                 nstart_read = nstart
         else:
             nstart_read = nstart
+
+        nsamp_read = int(nsamp_read)
+        nstart_read = int(nstart_read)
+
         logging.debug(
             f"nstart_read is {nstart_read}, nsamp_read is {nsamp_read},"
             f"nstart is {nstart}, nsamp is {nsamp}"
