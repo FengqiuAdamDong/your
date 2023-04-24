@@ -69,6 +69,8 @@ class SigprocFile(object):
     _type["tstart"] = "double"
     _type["tsamp"] = "double"
     _type["nifs"] = "int"
+    _type["signed"] = "bool"
+    _type["refdm"] = "double"
 
     def __init__(self, fp=None, copy_hdr=None):
         # init all items to None
